@@ -12,3 +12,7 @@ Aplicación que muestra un listado de archivos imagen ubicados en el paquete de 
 - Implementa la visualización de titulo en la barra de navegación y la propiedad de títulos grandes para algunas vistas
 - En el iPhoneX, por las características de la pantalla, cuando la imagen tiene el "Content Mode" configurado a "Scale To Fill", la imagen en realidad no ocupa toda la pantalla debido al espacio seguro (el cual evita que las imágenes se recorten para ajustarlas a los bordes redondeados) que deja un borde inferior blanco (home indicator)
 - Para eliminar este borde inferior blanco (home indicator) se selecciona la vista y en el "Size Inspector" se desmarca la opción "Safe Area Layout Guide"
+
+- Implementa botón para compartir imagen 
+- Implementa UIActivityViewController para determinar la mejor forma de compartir una imagen, esto se asemeja a un Inten implicito en android
+- Edita el archivo Info.plist para agregar “Privacy - Photo Library Additions Usage Description” que permite pedir permiso al usuario para almacenar una imagen el dispositivo
